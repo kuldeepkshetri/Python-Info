@@ -1,4 +1,5 @@
-'''
+'''1
+
 ***** 
 **** 
 ***
@@ -16,7 +17,9 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''2
+
+
 *****
 ####
 ***
@@ -35,7 +38,7 @@ for i in range (a,0,-1):
 '''
 
 
-'''
+'''3
 *
 ##
 ***
@@ -58,7 +61,7 @@ for i in range (a):
 '''
 
 
-'''
+'''4
 *
 * *
 *   *
@@ -84,7 +87,7 @@ for i in range (a):
 
 
 
-'''
+'''5
 *
 **
 *@*
@@ -109,7 +112,7 @@ for i in range (a):
 
 
 
-'''
+'''6
 *
 *#
 *#*
@@ -135,7 +138,7 @@ for i in range (a):
 
 
 
-'''
+'''7
 
 *****
 *  *
@@ -161,7 +164,9 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''8
+
+
     *
    * *
   * * *
@@ -184,7 +189,7 @@ for i in range (a):
 
 
 
-'''
+'''9
 
     *
    ***
@@ -206,7 +211,9 @@ for i in range (a):
 
 
 
-'''
+'''10
+
+
     *
    *_*
   *___* 
@@ -230,7 +237,9 @@ for i in range (a):
 
 
 
-'''
+'''11
+
+
 *********
  ******* 
   ***** 
@@ -254,7 +263,7 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''12
 
     #
    *#* 
@@ -279,7 +288,7 @@ for i in range (a):
 
 
 
-'''
+'''13
 
 
 * * * * * 
@@ -300,7 +309,7 @@ for i in range (a):
 '''
 
 
-'''
+'''14
 
 
    *
@@ -332,7 +341,9 @@ for c in range (a-1,0,-1):
 
 
 
-'''
+'''15
+
+
 x
 xx
 xxx
@@ -368,7 +379,9 @@ for i in range(a * 2 - 1):
 
 
 
-'''
+'''16
+
+
     X 
    X_X 
   X___X
@@ -404,7 +417,9 @@ for i in range (a):
 
 
 
-'''
+'''17
+
+
 *        *
 **      **
 ***    ***
@@ -431,7 +446,7 @@ for i in range (a):
 
 
 
-'''
+'''18
 
 
 **********
@@ -466,7 +481,9 @@ for i in range (a):
 
 
 
-'''
+'''19
+
+
 **********
 ****  ****
 ***    ***
@@ -510,7 +527,7 @@ for b in range (a):
 
 
 
-'''
+'''20
 
 
 *     *
@@ -542,38 +559,15 @@ for i in range (a*2-1):
 
 
 
-'''
-
-\     /
- \   /
-  \ /
-   \
-  / \
- /   \
-/     \ 
-
-'''
 
 
-
-
-
-
-'''
-
-a=int(input("Enter number :"))
-f="\\"
-for i in range (a*2-1):
-    print()
-    for j in range (a*2-1):
-        if i==j  :
-            print(f,end='')
-        elif   i+j==a*2-2 :
-            print("/",end='')
-        else :
-            print(" ",end='')
-
-'''
+#\     /
+# \   /
+#  \ /
+#   \
+#  / \
+# /   \
+#/     \ 
 
 
 
@@ -583,7 +577,30 @@ for i in range (a*2-1):
 
 
 
-'''
+
+#a=int(input("Enter number :"))
+#f=" \ "
+#for i in range (a*2-1):
+#    print()
+#    for j in range (a*2-1):
+#        if i==j  :
+#            print(f,end='')
+#        elif   i+j==a*2-2 :
+#            print("/",end='')
+#        else :
+#            print(" ",end='')
+
+
+
+
+
+
+
+
+
+
+
+'''22
    *
   *_*
  *_*_*
@@ -627,7 +644,7 @@ for b in range (1,a):
 
 
 
-'''
+'''23
 
 	
    *
@@ -664,3 +681,38 @@ for b in range (a-1):
         else :
             print("_",end='')
 '''
+
+
+
+
+
+
+
+
+
+
+
+'''24
+
+
+
+
+*
+**
+****
+*******
+***********
+
+
+'''
+
+
+a = int(input("Enter number: "))
+s = 1  # Start with 1 star for the first row
+
+for i in range(a):
+    print()
+    for j in range(s):
+        print("*", end='')
+    
+    s=s+i+1 

@@ -767,6 +767,7 @@ for i in range (a):
 '''
 
 
+'''
 a=int(input("Enter number :"))
 for i in range (a):
     print()
@@ -782,6 +783,6 @@ for b in range (a-1):
     for d in range (a-1-b):
         print(d+1,end='')
 
-        
 
 
+'''

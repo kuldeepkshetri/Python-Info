@@ -1,4 +1,4 @@
-'''
+'''1
 A
 AB
 ABC
@@ -17,7 +17,7 @@ for i in range (a):
 '''
 
 
-'''
+'''2
 a
 ab
 abc
@@ -37,7 +37,7 @@ for i in range (a):
 
 '''
 
-'''
+'''3
 A
 BB
 CCC
@@ -56,7 +56,7 @@ for i in range (a):
 
 '''
 
-'''
+'''4
 a
 bc
 def
@@ -77,7 +77,7 @@ for i in range(a):
 '''
 
 
-'''
+'''5
 A
 AB
 A C
@@ -104,7 +104,7 @@ for i in range (a):
             print(" ",end='' )
 '''
 
-'''
+'''6
 a
 bc
 d f
@@ -129,7 +129,7 @@ for i in range (a):
 
 
 
-'''
+'''7
 ABCDE
 ABCD
 ABC
@@ -151,7 +151,7 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''8
 EEEEE
 DDDD
 CCC
@@ -171,7 +171,7 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''9
 
 A
 BCD
@@ -192,7 +192,8 @@ for i in range (1,a+1):
 
 
 
-'''
+'''10
+
 ABCDE
 A  D
 A C
@@ -222,7 +223,8 @@ for i in range (a):
 
 
 
-'''
+'''11
+
 ABCDE
  ABCD
   ABC
@@ -248,7 +250,7 @@ for i in range (a):
 '''
 
 
-'''
+'''12
     A 
    AB
   ABC
@@ -273,7 +275,7 @@ for i in range (a):
 
 
 
-'''
+'''13
 
 ABCDE
 A__D
@@ -307,7 +309,8 @@ for i in range(a):
 
 
 
-'''
+'''14
+
     A
    AB
   A_C
@@ -339,7 +342,7 @@ for i in range (a):
 
 
 
-'''
+'''15
 
     A
    A B
@@ -363,7 +366,7 @@ for i in range (a):
             print(" ",end='')
 '''
 
-'''
+'''16
 
 A B C D E
  A B C D
@@ -400,7 +403,9 @@ for i in range (a):
 
 
 
-'''
+'''17
+
+
     A
    B B
   C   C
@@ -429,7 +434,9 @@ for i in range (a):
 
 
 
-'''
+'''18
+
+
     A
    ABC
   ABCDE
