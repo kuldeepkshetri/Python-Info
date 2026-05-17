@@ -618,3 +618,49 @@ for b in range (1,a):
         else :
             print("_",end='')
 '''
+
+
+
+
+
+
+
+
+
+'''
+
+	
+   *
+  *_* 
+ *___* 
+*_____*
+ *___* 
+  *_*
+   *
+'''
+
+
+'''
+
+
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    for j in range (a-1-i):
+        print(" ",end='')
+    for k in range (i*2+1):
+        if k==0 or k==i*2 :
+            print("*",end='')
+        else :
+            print("_",end='')
+
+for b in range (a-1):
+    print()
+    for c in range (b+1):
+        print(" ",end='')
+    for d in range ((a-1-b)*2-1):
+        if d==0 or d==(a-1-b)*2-2:
+            print("*",end='')
+        else :
+            print("_",end='')
+'''

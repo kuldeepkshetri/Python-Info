@@ -722,7 +722,8 @@ for i in range (a*2-1):
 
 
 
-'''
+'''28
+
     1
    212
   32123
@@ -748,5 +749,39 @@ for i in range (a):
 
 
 
+
+
+
+
+'''29
+
+
+
+   1
+  12
+ 123
+1234
+ 123
+  12
+   1
+'''
+
+
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    for j in range (a-1-i):
+        print(" ",end='')
+    for k in range (i+1):
+        print(k+1,end='')
+
+for b in range (a-1):
+    print()
+    for c in range (b+1):
+        print(" ",end='')
+    for d in range (a-1-b):
+        print(d+1,end='')
+
+        
 
 
