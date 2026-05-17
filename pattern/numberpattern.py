@@ -139,7 +139,98 @@ for i in range (1,l+1):
 
 '''
 
+
+
+
+
+
+
+
+
 '''
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+
+
+'''
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    val=1
+    for j in range(a-i-1):
+        print(" ",end='')
+
+    for k in range (i+1):
+        if k==0 or i==k:
+            print("1 ",end='')
+        else :
+            val=val*(i-k+1)//k
+            print(val,'',end='')
+'''
+
+
+
+
+
+
+
+
+
+'''
+
+5 5 5 5 5
+ 4 4 4 4
+  3 3 3
+   2 2
+    1
+'''
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    for j in range (i):
+        print(" ",end='')
+    for k in range (a-i):
+        print(a-i,end=' ' )
+'''
+
+
+
+
+
+'''
+     1               
+    101            
+   10101         
+  1010101           
+ 101010101   
+10101010101
+'''
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (i*2+1):
+        if k%2==0:
+            print("1",end='')
+        else :
+            print("0",end='')
+'''
+
+
+
+
+
+''' 
     1
    1*1
   1***1
@@ -147,11 +238,17 @@ for i in range (1,l+1):
 111111111
 '''
 
-l=5
-for i in range (1,l+1):
+'''
+a=int(input("Enter number :"))
+for i in range (a):
     print()
-    for j in range (1,l*2):
-        if i==l:
-            print("1",end="")
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (i*2+1):
+        if k==0 or k==i*2:
+                print("1",end='')
+        elif i+1==a:
+                print("1",end='')
         else :
-            print(" ",end='')
+                print("*",end='')
+'''

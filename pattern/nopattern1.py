@@ -1,4 +1,4 @@
-'''
+'''1
 1
 23
 456
@@ -17,7 +17,7 @@ for i in range (a):
 '''
 
 
-'''
+'''2
 1
 01
 101
@@ -38,7 +38,7 @@ for i in range (1,a+1):
 
 
 
-'''
+'''3
 1
 10
 101
@@ -61,7 +61,7 @@ for i in range (1,a+1):
 
 
 
-'''
+'''4
 1
 12
 1 3
@@ -86,7 +86,7 @@ for i in range (a):
 
 
 
-'''
+'''5
 1
 22
 3 3
@@ -118,7 +118,7 @@ for i in range (a):
 
 
 
-'''
+'''6
 5
 54
 543
@@ -139,7 +139,7 @@ for i in range (a):
 
 
 
-'''
+'''7
 1
 123
 12345
@@ -165,7 +165,7 @@ for i in range (1,a+1):
 
 
 
-'''
+'''8
 1
 10
 1 1
@@ -197,7 +197,7 @@ for i in range (a):
 
 
 
-'''
+'''9
 1
 222
 33333
@@ -222,7 +222,10 @@ for i in range (1,a+1):
 
 
 
-'''
+'''10
+
+
+
 12345
 1234
 123
@@ -242,7 +245,8 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''11
+
 55555
 4444
 333
@@ -263,7 +267,9 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''12
+
+
 123456
 54321
 1234
@@ -289,7 +295,9 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''13
+
+
 54321
 5432
 543
@@ -317,7 +325,10 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''14
+
+
+
 55555
 4  4
 3 3
@@ -338,7 +349,7 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''15
 
 
 55555
@@ -360,7 +371,9 @@ for i in range (a,0,-1):
 '''
 
 
-'''
+'''16
+
+
 12345
  1234
   123
@@ -390,7 +403,10 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''17
+
+
+
 12345
  1__4
   1_3
@@ -417,7 +433,9 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''18
+
+
 55555
  4__4
   3_3
@@ -451,7 +469,11 @@ for i in range (a,0,-1):
 
 
 
-'''
+'''19
+
+
+
+
 11111
  2222
   333
@@ -472,7 +494,9 @@ for i in range (a,0,-1):
 '''
 
 
-'''
+'''20
+
+
     1
    12
   123
@@ -480,6 +504,249 @@ for i in range (a,0,-1):
 12345
 
 '''
-
+'''
 a=int(input("Enter number :"))
-for i in range (a,0,-1)
+for i in range (a):
+    print()
+    d=1
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (1,i+2):
+        print(d,end='')
+        d=d+1
+'''
+
+'''21
+
+
+
+    1 
+   22
+  333
+ 4444
+55555
+'''
+
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    d=1
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (1,i+2):
+        print(i+1,end='')
+'''
+
+
+
+'''22
+
+
+    5
+   44
+  333
+ 2222
+11111
+'''
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    d=1
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (1,i+2):
+        print(a-i,end='')
+'''
+
+
+
+
+
+
+'''23
+
+
+    1
+   10
+  101
+ 1010
+10101
+
+
+'''
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    d=1
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (1,i+2):
+        if k%2==1:
+            print("1",end='')
+        else :
+            print("0",end='')
+  '''
+
+
+
+
+
+
+
+'''24
+
+    1
+   11
+  1*1
+ 1**1
+11111
+
+'''
+
+
+'''
+a=int(input("Enetr number :"))
+for i in range (a):
+    print()
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (i+1):
+        if i+1==a or k==i or k==0:
+            print("1",end='')
+        else :
+            print("*",end='')
+
+
+'''        
+
+
+
+
+
+
+'''25
+
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+
+'''
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    h=1
+    for j in range (a):
+        if j>=a-i-1:
+            print(h,end=' ')
+            h=h+1
+        else :
+            print(" ",end='')
+'''
+
+
+'''26
+
+
+
+    1
+   123
+  12345
+ 1234567
+123456789
+
+'''
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    l=1
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (i*2+1):
+        print(l,end='')
+        l=l+1
+
+'''
+
+
+
+'''27
+
+1
+1 2
+1  3
+1   4
+1  3
+1 2
+1
+
+
+'''
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a*2-1):
+    print()
+    if i<a:
+        g=i+1
+    else :
+        g=(a*2-1)-i
+    for j in range (g):
+        if j==0:
+            print("1",end='')
+        elif j==g-1:
+            print(g,end='')
+        else :
+            print(" ",end='')
+
+'''
+
+
+
+
+
+'''
+    1
+   212
+  32123
+ 4321234
+543212345
+
+'''
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    m=2
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (i*2+1):
+        if i>=k:
+            print(i+1-k,end='')
+        else :
+            print(m,end='')
+            m=m+1
+'''
+
+
+
+
+
+

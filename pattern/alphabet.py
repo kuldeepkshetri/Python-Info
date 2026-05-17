@@ -372,3 +372,79 @@ A B C D E
     A
 
 '''
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    for j in range (i):
+        print(" ",end='')
+    for k in range (a-i):
+        print(chr(65+k),end=' ' )
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+    A
+   B B
+  C   C
+ D     D
+EEEEEEEEE
+
+
+'''
+
+
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    for j in range(a-i-1):
+        print(" ",end='')
+    for k in range (i*2+1):
+        if i+1==a:
+            print(chr(65+i),end='')
+        elif k==0 or k==i*2:
+            print(chr(65+i),end='')
+        else :
+            print(" ",end='')
+'''
+
+
+
+'''
+    A
+   ABC
+  ABCDE
+ ABCDEEF
+ABCDEFGHI
+
+'''
+
+'''
+a=int(input("Enter number :"))
+for i in range (a):
+    print()
+    for j in range (a-i-1):
+        print(" ",end='')
+    for k in range (i*2+1):
+        print(chr(65+k),end='')
+
+'''
